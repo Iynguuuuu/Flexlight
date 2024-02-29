@@ -42,7 +42,7 @@ const Homepage = () => {
     }, [])
 
     return (
-        <div className=' h-[111vh]  bg-[url(/images/bg1.jpg)]  bg-cover bg-center'>
+        <div className=' h-[100vh]  bg-[url(/images/bg1.jpg)]  bg-cover bg-center'>
             {/* */}
             <div className='w-[90%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center'>
                 <div>
@@ -51,12 +51,10 @@ const Homepage = () => {
                     </h1>
                     <TextAnimation />
                     <p className='mt-[1.5rem] text-[18px] text-white opacity-70'>
-                        Managing and saving electricity has become a challenging task for large buildings and
-                        companies in this digital era. Even though there are many power-saving technologies, wastage of
-                        electricity is still an issue. We focuses on centralising the control of the power supply
+                        We focuses on centralising the control of the power supply
                         through software to automate and control the energy supply from homes to large residential or
                         commercial buildings efficiently to reduce energy waste and reduce the consequences that the
-                        planet faces due to the inefficient use of electricity.
+                        world faces due to the inefficient use of electricity.
                     </p>
                     <div className='mt-[2rem] ml-[0vh] flex-col space-y-6 sm:space-y-0  sm:flex sm:flex-row items-center sm:space-x-10'>
                         {/* <a href="./CV.pdf" download="CV Pdf" target="_blank"rel="noopener noreferrer">  </a> */}
@@ -73,7 +71,7 @@ const Homepage = () => {
 
                             <FaPlayCircle className='w-[3rem] h-[3rem]  hover:text-yellow-300 transition-all duration-200 rounded-full shadow-2xl
                                                      shadow-cyan-200 text-blue-500' />
-                            <p className='text-[20px] font-semibold text-white'>See Video</p>
+                            <p className='text-[20px] font-semibold text-white'>Watch Video</p>
 
                         </button>
 

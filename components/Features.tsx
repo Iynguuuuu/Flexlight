@@ -21,12 +21,6 @@ const Features = () => {
                         <h1 className='text-[20px] mt:text-[30px] mt-[1.5rem] mb-[1.5rem] capitalize'>
                             Wireless
                         </h1>
-                        {/* <p className='text-[15px] text-[#d3d2d2] font-normal'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Iusto explicabo iste accusantium cupiditate laboriosam molestias officiis itaque sapiente,
-                            ut blanditiis reiciendis ducimus nobis soluta quo et eos maxime porro vel.
-                        </p> */}
-
                     </div>
                 </div>
 
@@ -37,12 +31,6 @@ const Features = () => {
                         <h1 className='text-[20px] mt:text-[30px] mt-[1.5rem] mb-[1.5rem] capitalize'>
                             Automation
                         </h1>
-                        {/* <p className='text-[15px] text-[#d3d2d2] font-normal'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Iusto explicabo iste accusantium cupiditate laboriosam molestias officiis itaque sapiente,
-                            ut blanditiis reiciendis ducimus nobis soluta quo et eos maxime porro vel.
-                        </p> */}
-
                     </div>
                 </div>
 
@@ -53,12 +41,6 @@ const Features = () => {
                         <h1 className='text-[20px] mt:text-[30px] mt-[1.5rem] mb-[1.5rem] capitalize'>
                             Affordable
                         </h1>
-                        {/* <p className='text-[15px] text-[#d3d2d2] font-normal'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Iusto explicabo iste accusantium cupiditate laboriosam molestias officiis itaque sapiente,
-                            ut blanditiis reiciendis ducimus nobis soluta quo et eos maxime porro vel.
-                        </p> */}
-
                     </div>
                 </div>
 
@@ -69,29 +51,17 @@ const Features = () => {
                         <h1 className='text-[20px] mt:text-[30px] mt-[1.5rem] mb-[1.5rem] capitalize'>
                             Scalability
                         </h1>
-                        {/* <p className='text-[15px] text-[#d3d2d2] font-normal'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Iusto explicabo iste accusantium cupiditate laboriosam molestias officiis itaque sapiente,
-                            ut blanditiis reiciendis ducimus nobis soluta quo et eos maxime porro vel.
-                        </p> */}
-
                     </div>
                 </div>
 
                 <div data-aos="zoom-in" data-aos-delay="900">
-                    <div className='bg-indigo-800 hover:scale-110 transform transition-all duration-300 hover:-rotate-6
+                    <div className='bg-cyan-800 hover:scale-110 transform transition-all duration-300 hover:-rotate-6
                                     uppercase font-semibold text-center p-[2rem] rounded-3xl '>
                         <FaRegClock className='w-[6rem] h-[6rem] mx-auto text-[#d3fae8]' />
                         <h1 className='text-[20px] mt:text-[30px] mt-[1.5rem] mb-[1.5rem] capitalize'>
                             Timed Based Power Control
 
                         </h1>
-                        {/* <p className='text-[15px] text-[#d3d2d2] font-normal'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Iusto explicabo iste accusantium cupiditate laboriosam molestias officiis itaque sapiente,
-                            ut blanditiis reiciendis ducimus nobis soluta quo et eos maxime porro vel.
-                        </p> */}
-
                     </div>
                 </div>
 
@@ -102,12 +72,6 @@ const Features = () => {
                         <h1 className='text-[20px] mt:text-[30px] mt-[1.5rem] mb-[1.5rem] capitalize'>
                             Maintenance
                         </h1>
-                        {/* <p className='text-[15px] text-[#d3d2d2] font-normal'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Iusto explicabo iste accusantium cupiditate laboriosam molestias officiis itaque sapiente,
-                            ut blanditiis reiciendis ducimus nobis soluta quo et eos maxime porro vel.
-                        </p> */}
-
                     </div>
                 </div>
 
