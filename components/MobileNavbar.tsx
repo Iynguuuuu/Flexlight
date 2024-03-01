@@ -14,10 +14,10 @@ const MobileNavBar = ({ nav, closeNav }: Props) => {
 
         <div className={`fixed ${navAnimation} bg-[#090f18] transform transition-all duration-300 top-0 left-0 right-0 bottom-0 z-[1000000] opacity-80`}>
             <div className='w-[45vh] mr-[18vh] h-[100vh] flex flex-col items-center justify-center'>
-                <a href="#Home"><div className='nav-link-mobile'>HOME</div></a>
-                <a href="#Skill"><div className='nav-link-mobile'>SKILLS</div></a>
-                <a href="#Project"><div className='nav-link-mobile'>PROJECTS</div></a>
-                <a href="#Service"><div className='nav-link-mobile'>SERVICES</div></a>
+            <a href="#Home"><div className='nav-link-mobile'>HOME</div></a>
+                <a href="#Feature"><div className='nav-link-mobile'>FEATURES</div></a>
+                <a href="#Funtion"><div className='nav-link-mobile'>FUNCTION</div></a>
+                <a href="#AboutUs"><div className='nav-link-mobile'>ABOUT US</div></a>
                 <a href="#Contact"><div className='nav-link-mobile'>CONTACT</div></a>
             </div>
             <div

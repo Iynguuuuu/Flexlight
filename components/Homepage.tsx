@@ -7,8 +7,6 @@ import TextAnimation from './TextAnimation';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
-
-
 const Homepage = () => {
 
     // Animation AOS setup
@@ -42,49 +40,55 @@ const Homepage = () => {
     }, [])
 
     return (
-        <div className=' h-[100vh]  bg-[url(/images/bg1.jpg)]  bg-cover bg-center'>
-            {/* */}
-            <div className='w-[90%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center'>
-                <div>
-                    <h1 className='text-[35px] md:text-[50px] mt-[14vh] text-white font-bold'>
-                        Welcome to <span className='text-yellow-300 text-[65px] '>FlexLight</span>
-                    </h1>
-                    <TextAnimation />
-                    <p className='mt-[1.5rem] text-[18px] text-white opacity-70'>
-                        We focuses on centralising the control of the power supply
-                        through software to automate and control the energy supply from homes to large residential or
-                        commercial buildings efficiently to reduce energy waste and reduce the consequences that the
-                        world faces due to the inefficient use of electricity.
-                    </p>
-                    <div className='mt-[2rem] ml-[0vh] flex-col space-y-6 sm:space-y-0  sm:flex sm:flex-row items-center sm:space-x-10'>
-                        {/* <a href="./CV.pdf" download="CV Pdf" target="_blank"rel="noopener noreferrer">  </a> */}
 
-                        <button className='flex  items-center  space-x-2 px-[2rem] hover:bg-yellow-300 transition-all duration-200 py-[1rem] 
+        <section id='Home'>
+
+            <div className=' h-[100vh]  bg-[url(/images/bg1.jpg)]  bg-cover bg-center'>
+                {/* */}
+                <div className='w-[90%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center'>
+                    <div>
+                        <h1 className='text-[35px] md:text-[50px] mt-[14vh] text-white font-bold'>
+                            Welcome to <span className='text-yellow-300 text-[65px] '>FlexLight</span>
+                        </h1>
+                        <TextAnimation />
+                        <p className='mt-[1.5rem] text-[18px] text-white opacity-70'>
+                            We focuses on centralising the control of the power supply
+                            through software to automate and control the energy supply from homes to large residential or
+                            commercial buildings efficiently to reduce energy waste and reduce the consequences that the
+                            world faces due to the inefficient use of electricity.
+                        </p>
+                        <div className='mt-[2rem] ml-[0vh] flex-col space-y-6 sm:space-y-0  sm:flex sm:flex-row items-center sm:space-x-10'>
+                            {/* <a href="./CV.pdf" download="CV Pdf" target="_blank"rel="noopener noreferrer">  </a> */}
+
+                            <button className='flex  items-center  space-x-2 px-[2rem] hover:bg-yellow-300 transition-all duration-200 py-[1rem] 
                                             text-[18px] font-bold bg-violet-400 rounded-3xl shadow-2xl shadow-cyan-500 h-[3rem] text-black'>
 
-                            <p>Download APK</p>
-                            <ArrowDownTrayIcon className=' w-[1.7rem] h-[1.7rem] text-black' />
+                                <p>Download APK</p>
+                                <ArrowDownTrayIcon className=' w-[1.7rem] h-[1.7rem] text-black' />
 
-                        </button>
+                            </button>
 
-                        <button className='flex items-center space-x-2 '>
+                            <button className='flex items-center space-x-2 '>
 
-                            <FaPlayCircle className='w-[3rem] h-[3rem]  hover:text-yellow-300 transition-all duration-200 rounded-full shadow-2xl
+                                <FaPlayCircle className='w-[3rem] h-[3rem]  hover:text-yellow-300 transition-all duration-200 rounded-full shadow-2xl
                                                      shadow-cyan-200 text-blue-500' />
-                            <p className='text-[20px] font-semibold text-white'>Watch Video</p>
+                                <p className='text-[20px] font-semibold text-white'>Watch Video</p>
 
-                        </button>
+                            </button>
+
+                        </div>
+
 
                     </div>
-
-
-                </div>
-                <div className='ml-[12vh] mt-[9vh]'>
-                    <LuPlugZap className="text-cyan-300 w-[350px] h-[350px]   hidden relative lg:flex items-center rounded-full 
+                    <div className='ml-[12vh] mt-[9vh]'>
+                        <LuPlugZap className="text-cyan-300 w-[350px] h-[350px]   hidden relative lg:flex items-center rounded-full 
                      shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]" />  {/*shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]*/}
+                    </div>
                 </div>
             </div>
-        </div>
+
+        </section>
+
     );
 }
 

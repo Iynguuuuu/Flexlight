@@ -4,6 +4,7 @@ import Features from '@/components/Features'
 import AboutUs from '@/components/AboutUs'
 import React, { useState } from 'react'
 import MobileNavBar from '@/components/MobileNavbar'
+import Footer from '@/components/Footer'
 
 
 
@@ -27,7 +28,7 @@ const Index = () => {
 
           <Features />
           <AboutUs/>
-          {/* <Footer />  */}
+          <Footer /> 
         </div>
 
       </div>
