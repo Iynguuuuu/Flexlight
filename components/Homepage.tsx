@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
 import { ArrowDownTrayIcon } from '@heroicons/react/16/solid';
 import { FaPlayCircle } from "react-icons/fa";
 import { LuPlugZap } from 'react-icons/lu';

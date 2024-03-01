@@ -1,17 +1,25 @@
-import React from 'react'
 import Navbar from '@/components/Navbar'
 import Homepage from '@/components/Homepage'
 import Features from '@/components/Features'
 import AboutUs from '@/components/AboutUs'
+import React, { useState } from 'react'
+import MobileNavBar from '@/components/MobileNavbar'
 
-const index = () => {
+
+
+const Index = () => {
+
+  const [nav, setNav] = useState(false);
+  const openNav = () => setNav(true);
+  const closeNav = () => setNav(false);
+
   return (
     <div className="overflow-x-hidden">
       <div>
 
-        {/* <MobileNav nav={nav} closeNav={closeNav} /> */}
+        <MobileNavBar nav={nav} closeNav={closeNav} />
 
-        <Navbar />
+        <Navbar openNav={openNav} />
 
         <Homepage />
 
@@ -27,4 +35,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index
