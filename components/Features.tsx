@@ -10,7 +10,7 @@ const Features = () => {
     return (
         <div className='bg-gradient-to-r from-indigo-900 to-black pt-[4rem] md:pt-[8rem] pb-[5rem]'>
             <p className='heading'>
-                Our <span className='text-yellow-300'>Features</span>
+                Our <span className='text-yellow-400'>Features</span>
             </p>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] 
                             mx-auto items-center gap-[3rem] mt-4rem text-white pt-[3rem] '>
@@ -25,7 +25,7 @@ const Features = () => {
                 </div>
 
                 <div data-aos="zoom-in" data-aos-delay="300">
-                    <div className='bg-red-800 hover:scale-110 transform transition-all duration-300 
+                    <div className='bg-red-800 hover:scale-110 transform transition-all duration-300 hover:-rotate-6
                                     uppercase font-semibold text-center p-[2rem] rounded-3xl '>
                         <BsJoystick className='w-[6rem] h-[6rem] mx-auto text-[#d3fae8]' />
                         <h1 className='text-[20px] mt:text-[30px] mt-[1.5rem] mb-[1.5rem] capitalize'>

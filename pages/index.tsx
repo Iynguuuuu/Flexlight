@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '@/components/Navbar'
 import Homepage from '@/components/Homepage'
 import Features from '@/components/Features'
+import AboutUs from '@/components/AboutUs'
 
 const index = () => {
   return (
@@ -17,6 +18,7 @@ const index = () => {
         <div className='relative z-[30]'>
 
           <Features />
+          <AboutUs/>
           {/* <Footer />  */}
         </div>
 

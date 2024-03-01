@@ -79,9 +79,9 @@ const Homepage = () => {
 
 
                 </div>
-                <div className='ml-[12vh]'>
+                <div className='ml-[12vh] mt-[9vh]'>
                     <LuPlugZap className="text-cyan-300 w-[350px] h-[350px]   hidden relative lg:flex items-center rounded-full 
-                     " />  {/*shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]*/}
+                     shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]" />  {/*shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]*/}
                 </div>
             </div>
         </div>
