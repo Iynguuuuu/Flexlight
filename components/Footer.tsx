@@ -9,7 +9,7 @@ const Footer = () => {
         <section className="bg-gradient-to-r from-[#19245f] to-black" id="Contact">
 
             <div>
-                <div className="items-center ml-[16px] w-[90%]">
+                <div className="items-center ml-[4vh] w-[90%]">
                     <h1 className="text-[55px]  font-semibold text-white">Contact us for more.</h1>
                     <p className="text-[20px] w-[100%] text-white opacity-60">
                         We would be happy to further discuss about our prodcut with you,
@@ -28,7 +28,7 @@ const Footer = () => {
                             <FaPhone className='md:w-[4rem] md:h-[4rem] w-[3.5rem] h-[3.5rem] text-green-600' />
                             <div>
                                 <h1 className="text-[25px] mb-[0.2rem] font-semibold text-white">Phone Number</h1>
-                                <p className="text-[17px] w-[100%] text-white opacity-60">+94 77 345 6678</p>
+                                <p className="text-[17px] w-[100%] text-white opacity-60">+94 77 xxx xxxx</p>
                             </div>
                         </div>
                     </div>

@@ -17,7 +17,6 @@ const Navbar = ({ openNav }: Props) => {
                 </h1>
                 <a href="#Home"><div className='nav-link'>HOME</div></a>
                 <a href="#Feature"><div className='nav-link'>FEATURES</div></a>
-                <a href="#Funtion"><div className='nav-link'>FUNCTION</div></a>
                 <a href="#AboutUs"><div className='nav-link'>ABOUT US</div></a>
                 <a href="#Contact"><div className='nav-link'>CONTACT</div></a>
 

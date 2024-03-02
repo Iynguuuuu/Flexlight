@@ -58,7 +58,7 @@ const Homepage = () => {
                             world faces due to the inefficient use of electricity.
                         </p>
                         <div className='mt-[2rem] ml-[0vh] flex-col space-y-6 sm:space-y-0  sm:flex sm:flex-row items-center sm:space-x-10'>
-                            {/* <a href="./CV.pdf" download="CV Pdf" target="_blank"rel="noopener noreferrer">  </a> */}
+                            {/* <a href="" download="APk File" target="_blank" rel="noopener noreferrer">  </a> */}
 
                             <button className='flex  items-center  space-x-2 px-[2rem] hover:bg-yellow-300 transition-all duration-200 py-[1rem] 
                                             text-[18px] font-bold bg-violet-400 rounded-3xl shadow-2xl shadow-cyan-500 h-[3rem] text-black'>
