@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="items-center ml-[4vh] w-[90%]">
                     <h1 className="text-[55px]  font-semibold text-white">Contact us for more.</h1>
                     <p className="text-[20px] w-[100%] text-white opacity-60">
-                        We would be happy to further discuss about our prodcut with you,
+                        We would be happy to further discuss about our product with you,
                         simply shoot us an Email or Contact via WhatsApp : )
                     </p>
                 </div>
