@@ -28,7 +28,7 @@ const Footer = () => {
                             <FaPhone className='md:w-[4rem] md:h-[4rem] w-[3.5rem] h-[3.5rem] text-green-600' />
                             <div>
                                 <h1 className="text-[25px] mb-[0.2rem] font-semibold text-white">Phone Number</h1>
-                                <p className="text-[17px] w-[100%] text-white opacity-60">+94 77 xxx xxxx</p>
+                                <p className="text-[17px] w-[100%] text-white opacity-60">+94 76 090 1661</p>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ const Footer = () => {
 
                             <div>
                                 <h1 className="text-[25px] mb-[0.2rem] font-semibold text-white">Email</h1>
-                                <p className="text-[17px] w-[100%] text-white opacity-60">chanuth.20221467@iit.ac.lk</p>
+                                <p className="text-[17px] w-[100%] text-white opacity-60">chanuthkausilu@gmail.com</p>
                             </div>
                         </div>
 
