@@ -5,6 +5,7 @@ import AboutUs from '@/components/AboutUs'
 import React, { useState } from 'react'
 import MobileNavBar from '@/components/MobileNavbar'
 import Footer from '@/components/Footer'
+import Brief from '@/components/Brief'
 
 
 
@@ -25,10 +26,10 @@ const Index = () => {
         <Homepage />
 
         <div className='relative z-[30]'>
-
+          <Brief />
           <Features />
-          <AboutUs/>
-          <Footer /> 
+          <AboutUs />
+          <Footer />
         </div>
 
       </div>
