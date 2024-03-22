@@ -2,6 +2,8 @@ import React from 'react'
 
 const Brief = () => {
     return (
+    <section id='Brief'>
+
         <div className='bg-gradient-to-r from-indigo-900 to-black pt-[4rem] md:pt-[8rem] pb-[2rem] h-[100%] items-center width-[90%] mx-auto '>
             <p className='heading'>
                 Project <span className='text-yellow-400'>Brief</span>
@@ -31,6 +33,8 @@ const Brief = () => {
             </p>
 
         </div>
+
+    </section>
     )
 }
 
