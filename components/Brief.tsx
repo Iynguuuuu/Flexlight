@@ -2,7 +2,7 @@ import React from 'react'
 
 const Brief = () => {
     return (
-        <div className='bg-gradient-to-r from-indigo-900 to-black pt-[4rem] md:pt-[8rem] pb-[5rem] h-[100%] items-center width-[90%] mx-auto '>
+        <div className='bg-gradient-to-r from-indigo-900 to-black pt-[4rem] md:pt-[8rem] pb-[2rem] h-[100%] items-center width-[90%] mx-auto '>
             <p className='heading'>
                 Project <span className='text-yellow-400'>Brief</span>
             </p>
@@ -14,10 +14,10 @@ const Brief = () => {
                 where people spend most of their time, the solution will
                 be to create a power management system that can automate the energy supply to appliances and
                 reduce the unnecessary usage of energy.
-                <br/><br />
+                <br /><br />
                 With the help of relays and controllers and wifi communication, ideally, an Arduino with an
                 ESP8266 wifi module or a NodeMCU with an interactive smart app can control power. The
-                system is modular and can be expanded easily to a high scale at a low cost. 
+                system is modular and can be expanded easily to a high scale at a low cost.
                 The smart application is available as both a mobile and a web application making the system more accessible to users.
                 Using this app, users will have the ability to control the power to each relay and even be able to
                 monitor the electricity usage specified for each relay as well if a current sensor is installed.
