@@ -9,6 +9,8 @@ import Brief from '@/components/Brief'
 
 
 
+
+
 const Index = () => {
 
   const [nav, setNav] = useState(false);
@@ -26,6 +28,7 @@ const Index = () => {
         <Homepage />
 
         <div className='relative z-[30]'>
+          
           <Brief />
           <Features />
           <AboutUs />
