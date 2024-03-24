@@ -60,7 +60,7 @@ const Homepage = () => {
                         <div className='mt-[2rem] ml-[0vh] flex-col space-y-6 sm:space-y-0  sm:flex sm:flex-row items-center sm:space-x-10'>
                             {/* <a href="" download="APk File" target="_blank" rel="noopener noreferrer">  </a> */}
 
-                            <button className='flex  items-center  space-x-2 px-[2rem] hover:bg-yellow-300 transition-all duration-200 py-[1rem] 
+                            <button className='flex  items-center mt-[3vh]  space-x-2 px-[2rem] hover:bg-yellow-300 transition-all duration-200 py-[1rem] 
                                             text-[18px] font-bold bg-violet-400 rounded-3xl shadow-2xl shadow-cyan-500 h-[3rem] text-black'>
 
                                 <p>Download APK</p>
@@ -69,16 +69,14 @@ const Homepage = () => {
                             </button>
 
                             <a href="#video"> 
-                            <button className='flex items-center space-x-2 '>
+                            <button className='flex items-center space-x-2 mt-[3vh] '>
 
-                                <FaPlayCircle className='w-[3rem] h-[3rem] mt-[3vh]  hover:text-yellow-300 transition-all duration-200 rounded-full shadow-2xl
+                                <FaPlayCircle className='w-[3rem] h-[3rem]   hover:text-yellow-300 transition-all duration-200 rounded-full shadow-2xl
                                     shadow-cyan-200 text-blue-500' />
                                 <p className='text-[20px] font-semibold text-white'>Watch Video</p>
 
                             </button>
                             </a>
-
-
 
                         </div>
 
