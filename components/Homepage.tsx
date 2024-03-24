@@ -6,7 +6,6 @@ import { LuPlugZap } from 'react-icons/lu';
 import TextAnimation from './TextAnimation';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
-import DVideo from './DVideo';
 
 const Homepage = () => {
 
@@ -69,15 +68,17 @@ const Homepage = () => {
 
                             </button>
 
+                            <a href="#video"> 
                             <button className='flex items-center space-x-2 '>
 
                                 <FaPlayCircle className='w-[3rem] h-[3rem]  hover:text-yellow-300 transition-all duration-200 rounded-full shadow-2xl
-                                                     shadow-cyan-200 text-blue-500' />
+                                    shadow-cyan-200 text-blue-500' />
                                 <p className='text-[20px] font-semibold text-white'>Watch Video</p>
 
                             </button>
+                            </a>
 
-                            {/* <DVideo/> */}
+
 
                         </div>
 
