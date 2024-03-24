@@ -71,7 +71,7 @@ const Homepage = () => {
                             <a href="#video"> 
                             <button className='flex items-center space-x-2 '>
 
-                                <FaPlayCircle className='w-[3rem] h-[3rem]  hover:text-yellow-300 transition-all duration-200 rounded-full shadow-2xl
+                                <FaPlayCircle className='w-[3rem] h-[3rem] mt-[3vh]  hover:text-yellow-300 transition-all duration-200 rounded-full shadow-2xl
                                     shadow-cyan-200 text-blue-500' />
                                 <p className='text-[20px] font-semibold text-white'>Watch Video</p>
 
