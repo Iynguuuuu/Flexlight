@@ -6,6 +6,8 @@ import React, { useState } from 'react'
 import MobileNavBar from '@/components/MobileNavbar'
 import Footer from '@/components/Footer'
 import Brief from '@/components/Brief'
+import DVideo from '@/components/DVideo'
+
 
 
 
@@ -28,7 +30,8 @@ const Index = () => {
         <Homepage />
 
         <div className='relative z-[30]'>
-          
+
+          <DVideo/>
           <Brief />
           <Features />
           <AboutUs />

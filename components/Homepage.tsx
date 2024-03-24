@@ -6,6 +6,7 @@ import { LuPlugZap } from 'react-icons/lu';
 import TextAnimation from './TextAnimation';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import DVideo from './DVideo';
 
 const Homepage = () => {
 
@@ -76,10 +77,12 @@ const Homepage = () => {
 
                             </button>
 
+                            {/* <DVideo/> */}
+
                         </div>
 
-
                     </div>
+
                     <div data-aos="fade-up" data-aos-delay="100" className='ml-[12vh] mt-[9vh] '>
                         <LuPlugZap className="text-cyan-300 w-[350px] h-[350px]   hidden relative lg:flex items-center rounded-full 
                      shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]" />  {/*shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]*/}
