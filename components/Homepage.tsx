@@ -58,7 +58,7 @@ const Homepage = () => {
                             world faces due to the inefficient use of electricity.
                         </p>
                         <div className='mt-[2rem] ml-[0vh] flex-col space-y-6 sm:space-y-0  sm:flex sm:flex-row items-center sm:space-x-10'>
-                            <a  href="./app-release.apk"
+                            <a  href="https://drive.google.com/drive/folders/1Ln0GiqZskDbohepqdMAVKcHmfcWTe9Kx?usp=sharing"
                                 download="APk File"
                                 target="_blank"
                                 rel="noopener noreferrer">
