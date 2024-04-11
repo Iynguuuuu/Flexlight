@@ -44,7 +44,7 @@ const Homepage = () => {
         <section id='Home'>
 
             <div className=' h-[100vh]  bg-[url(/images/bg1.jpg)]  bg-cover bg-center'>
-                {/* */}
+
                 <div className='w-[90%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center'>
                     <div>
                         <h1 className='text-[35px] md:text-[50px] mt-[14vh] text-white font-bold'>
@@ -58,24 +58,29 @@ const Homepage = () => {
                             world faces due to the inefficient use of electricity.
                         </p>
                         <div className='mt-[2rem] ml-[0vh] flex-col space-y-6 sm:space-y-0  sm:flex sm:flex-row items-center sm:space-x-10'>
-                            {/* <a href="" download="APk File" target="_blank" rel="noopener noreferrer">  </a> */}
-
-                            <button className='flex  items-center mt-[3vh]  space-x-2 px-[2rem] hover:bg-yellow-300 transition-all duration-200 py-[1rem] 
+                            <a  href="./app-release.apk"
+                                download="APk File"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <button className='flex  items-center mt-[3vh]  space-x-2 px-[2rem] hover:bg-yellow-300 transition-all duration-200 py-[1rem] 
                                             text-[18px] font-bold bg-violet-400 rounded-3xl shadow-2xl shadow-cyan-500 h-[3rem] text-black'>
 
-                                <p>Download APK</p>
-                                <ArrowDownTrayIcon className=' w-[1.7rem] h-[1.7rem] text-black' />
+                                    <p>Download APK</p>
+                                    <ArrowDownTrayIcon className=' w-[1.7rem] h-[1.7rem] text-black' />
 
-                            </button>
+                                </button>
+                            </a>
 
-                            <a href="#video"> 
-                            <button className='flex items-center space-x-2 mt-[3vh] '>
 
-                                <FaPlayCircle className='w-[3rem] h-[3rem]   hover:text-yellow-300 transition-all duration-200 rounded-full shadow-2xl
+
+                            <a href="#video">
+                                <button className='flex items-center space-x-2 mt-[3vh] '>
+
+                                    <FaPlayCircle className='w-[3rem] h-[3rem]   hover:text-yellow-300 transition-all duration-200 rounded-full shadow-2xl
                                     shadow-cyan-200 text-blue-500' />
-                                <p className='text-[20px] font-semibold text-white'>Watch Video</p>
+                                    <p className='text-[20px] font-semibold text-white'>Watch Video</p>
 
-                            </button>
+                                </button>
                             </a>
 
                         </div>
